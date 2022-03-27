@@ -1,0 +1,13 @@
+t = int (input ( "which number ? : "))
+d = 0
+nbd = 0
+
+while d != t:
+    d += 1
+    if t%d==0:
+        nbd += 1
+        
+if nbd == 2:
+    print (t, "prime")
+else: 
+    print (t, "not prime")
